@@ -432,7 +432,7 @@
 	@media screen and (min-width: 737px) {
 
 		.row > * {
-			padding: 50px 0 0 50px;
+			/*padding: 50px 0 0 50px;*/
 		}
 
 		.row {
@@ -2524,3 +2524,10 @@
 		margin: 2em;
 		display: flex;
 	}
+
+
+#pollarity-details {
+	background: ./images/PollarityScreenshot_preview.png;
+	height: 100%;
+	width: auto;
+}
