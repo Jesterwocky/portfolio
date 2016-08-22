@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<!--
+	Strongly Typed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Jessie Walker Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header" class="container">
+
+						<!-- Logo -->
+							<h1 id="logo"><a href="index.html">Jessie Walker</a></h1>
+							<h3>
+								Web developer
+							</h3>
+							<i class="devicon-ruby-plain-wordmark colored"></i>
+							<i class="devicon-rails-plain-wordmark colored"></i>
+							<i class="devicon-javascript-plain colored"></i>
+							<i class="devicon-react-original-wordmark colored"></i>
+							<i class="devicon-html5-plain-wordmark colored"></i>
+							<i class="devicon-css3-plain-wordmark colored"></i>
+							<!-- <i class="devicon-git-plain-wordmark colored"></i>
+							<i class="devicon-confluence-plain-wordmark colored"></i> -->
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a class="icon fa-home" href="#features"><span>Summary</span></a></li>
+									<li>
+										<a href="https://pollarity-polls.herokuapp.com/" class="icon fa-bar-chart-o"><span>Pollarity App</span></a>
+									</li>
+									<li><a class="icon fa-cog" href="resume.html"><span>Resume</span></a></li>
+									<li><a class="icon fa-sitemap" href="https://github.com/Jesterwocky"><span>Github</span></a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			<!-- Features -->
+				<div id="features-wrapper">
+					<section id="features" class="container">
+						<!-- image here -->
+						<p id="self-blurb">
+							I used to write about other people's code. Now? <strong>I write code!</strong>
+						</p>
+						<ul class="actions">
+							<li><a href="#" class="button icon fa-file">Resume</a></li>
+							<li><a href="#projects" class="button">Stuff I've made</a></li>
+						</ul>
+						<div class="row" id="projects">
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+								<section>
+									<header>
+										<h3>Dodge NY</h3>
+									</header>
+									<p>
+										New York City morning rush hour, brought to life using
+										JavaScript and the HTML5 canvas.
+									</p>
+									<p>
+										<a href="#">Live</a> |
+										<a href="#">More about Dodge NY</a> |
+										<a href="https://github.com/Jesterwocky/Dodge_NY_Game">Repo</a>
+									</p>
+									<a href="#"><img class="image featured" src="images/dodgeNYscreenshot_preview.png" alt="" /></a>
+								</section>
+
+							</div>
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+								<section>
+									<header>
+										<h3>Pollarity - Live Polling</h3>
+									</header>
+									<p>
+										A one-page app in Ruby on Rails (back end) and React.js (front end).
+										Inspired by <a href="http://polleverywhere.com">Poll Everywhere</a>.
+									</p>
+									<p>
+										<a href="https://pollarity-polls.herokuapp.com/">Live</a> |
+										<a href="#">More about Pollarity</a> |
+										<a href="https://github.com/Jesterwocky/Pollarity">Repo</a>
+									</p>
+									<a href="https://pollarity-polls.herokuapp.com/" target="_blank"><img class="image featured" src="images/PollarityScreenshot_preview.png" alt="" /></a>
+								</section>
+
+							</div>
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+								<section>
+									<header>
+										<h3>qwizDOM</h3>
+									</header>
+									<p>
+										A lightweight library for DOM-manipulation, investigating
+										JQuery's foundations.
+									</p>
+									<p>
+										<a href="#">More about quizDOM</a> |
+										<a href="https://github.com/Jesterwocky/qwizDOM">Repo</a>
+									</p>
+									<a href="#"><img class="image featured" src="images/qwizDOMscreenshot_preview.png" alt="" /></a>
+								</section>
+
+							</div>
+						</div>
+					</section>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div id="main" class="container">
+						<div class="row">
+
+							<!-- Content -->
+								<div id="content" class="8u 12u(mobile)">
+
+									<!-- Post -->
+										<article class="box post project-details" id="pollarity-details">
+											<header>
+												<h2><a href="https://pollarity-polls.herokuapp.com/">Pollarity</a></h2>
+											</header>
+											<h3>Ruby on Rails and JavaScript with React.js and Flux</h3>
+											<p>
+												Pollarity is a single-page web app built in Ruby on Rails
+												and JavaScript using React.js, featuring:
+											<p>
+												<ul class="feature-list">
+													<li>
+														Postgres database with complex associations at
+														the model level (Rails). React.js frontend, using Flux to
+														govern the flow of data between database and
+														views/components.
+													</li>
+													<li>
+														Poll-creation component that automatically
+														generates question components on change
+														event. Integrated Cloudinary API permits image uploads
+														as a supplement or replacement for plain-text answers.
+													</li>
+													<li>
+														Poll response components that fire an
+														AJAX request on click to create, update, or
+														remove a vote. Intuitive UI with instant visual
+														feedback: click once to vote (create); click again
+														to deselect (delete); click another answer to
+														change your vote (update).
+													</li>
+													<li>
+														Live poll results, made possible by WebSockets using
+														<a href="https://pusher.com/">Pusher</a>. A Response
+														Store component listens for survey-specific events published
+														by the Responses Controller on create, update, or delete.
+														Changes in the store trigger registered callbacks to
+														instantly update the survey report.
+													</li>
+												</ul>
+											<p>
+												Pollarity was inspired by <a href="http://www.polleverywhere.com">Poll Everywhere</a>.
+											</p>
+											<a href="#"><img class="image featured support" src="images/PollarityScreenshot.png" alt="" /></a>
+										</article>
+
+									<!-- Post -->
+										<article class="box post">
+											<header>
+												<h2><a href="#">Dodge NY</a></h2>
+											</header>
+											<h3>JavaScript</h3>
+											<p>
+												Dodge NY is a browser game written in JavaScript. Features:
+											</p>
+											<ul class="feature-list">
+												<li>
+													JavaScript in a simple Node framework, using JQuery and
+													layered	HTML5 canvases and render. A background canvas
+													draws the sidewalk one time per pageload. Obstacles and
+													people are drawn on the top canvas at 200 frames per second.
+												</li>
+												<li>
+													A simple algorithm to simulate crowd movement. "People" characters
+													steer away from obstacles and avoid the road. Jostling crowds nudge
+													the player in random directions, frustrating their intentions and
+													knocking points off the politeness score. Cars run vertically on a
+													partly-randomized timer. Player charater's speed increases while
+													walking in the road and returns to normal on regaining
+													the sidewalk.
+												</li>
+											</ul>
+											<a href="#"><img class="image featured" src="images/dodgeNYscreenshot.png" alt="" /></a>
+										</article>
+
+									<!-- Post -->
+										<article class="box post">
+											<header>
+												<h2><a href="#">quizDOM</a></h2>
+											</header>
+											<h3>JavaScript</h3>
+											<p>
+												quizDOM is a lightweight DOM manipulation library,
+												written as a means to investigate JQuert's inner workings.
+												Features:
+											</p>
+											<ul class="feature-list">
+												<li>
+													
+												</li>
+												<li>
+													Creates promises to handle the results of AJAX
+													requests, simplifying success/failure callback
+													registration and calling.
+												</li>
+											</ul>
+											<a href="#"><img class="image featured" src="images/dodgeNYscreenshot.png" alt="" /></a>
+										</article>
+
+								</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<div id="footer" class="container">
+						<header>
+							<h2>Questions or comments? <strong>Get in touch:</strong></h2>
+						</header>
+						<div class="row">
+							<div class="6u 12u(mobile)">
+								<section>
+									<form method="post" action="#">
+										<div class="row 50%">
+											<div class="6u 12u(mobile)">
+												<input name="name" placeholder="Name" type="text" />
+											</div>
+											<div class="6u 12u(mobile)">
+												<input name="email" placeholder="Email" type="text" />
+											</div>
+										</div>
+										<div class="row 50%">
+											<div class="12u">
+												<textarea name="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row 50%">
+											<div class="12u">
+												<a href="#" class="form-button-submit button icon fa-envelope">Send Message</a>
+											</div>
+										</div>
+									</form>
+								</section>
+							</div>
+							<div class="6u 12u(mobile)">
+								<section>
+									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
+									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
+									leo nibh, rutrum eu malesuada.</p>
+									<div class="row">
+										<div class="6u 12u(mobile)">
+											<ul class="icons">
+												<li class="icon fa-home">
+													1234 Somewhere Road<br />
+													Nashville, TN 00000<br />
+													USA
+												</li>
+												<li class="icon fa-phone">
+													(000) 000-0000
+												</li>
+												<li class="icon fa-envelope">
+													<a href="#">info@untitled.tld</a>
+												</li>
+											</ul>
+										</div>
+										<div class="6u 12u(mobile)">
+											<ul class="icons">
+												<li class="icon fa-twitter">
+													<a href="#">@untitled-tld</a>
+												</li>
+												<li class="icon fa-instagram">
+													<a href="#">instagram.com/untitled-tld</a>
+												</li>
+												<li class="icon fa-dribbble">
+													<a href="#">dribbble.com/untitled-tld</a>
+												</li>
+												<li class="icon fa-facebook">
+													<a href="#">facebook.com/untitled-tld</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+					<div id="copyright" class="container">
+						<ul class="links">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
