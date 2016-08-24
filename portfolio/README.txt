@@ -10,7 +10,7 @@ and includes styling for all basic page elements. Demo images* are courtesy of
 regularjane, an incredibly talented photographer friend of mine. Be sure to
 check out more of her work over at deviantART:
 
-http://regularjane.deviantart.com/
+https://regularjane.deviantart.com/
 
 (* = Not included! Only meant for use with my own on-site demo, so please do NOT download
 and/or use any of Jane's work without her explicit permission!)
