@@ -54,33 +54,35 @@
 				<div id="features-wrapper">
 					<section id="features" class="container">
 						<!-- image here -->
-						<p id="pre-self-blurb">
-							I used to write about other people's code. Now? <strong>I write code!</strong>
-						</p>
-						<p>
-							I was a tech writer For 6 years. I enjoyed the procedural
-							thinking: the process of investigating and finding the best path.
-							I was known for pointed questions, precision, and a keen interest in
-							automation and technology as a way to solve inefficiencies.
-							By the end of my tenure, I had revamped a number of key processes
-							and was writing scripts in Python and Selenium to automate rote work.
-						</p>
-						<p>
-					 		In 2016 I was accepted to App Academy, where I learned Ruby,
-							Rails, SQL, JavaScript, React, Flux, and computer science concepts
-				 			in an environment designed to test students' mettle as well as teach.
-						</p>
-						<p>
-							The process of planning and executing an app is
+						<section id="about-me">
+							<p id="pre-self-blurb">
+								I used to write about other people's code. Now? <strong>I write code!</strong>
+							</p>
+							<ul class="actions">
+								<li><a href="#" class="button icon fa-file">Resume</a></li>
+								<li><a href="#projects" class="button">Stuff I've made</a></li>
+							</ul>
+							<h2>About Me</h2>
+							<p class="self-blurb">
+								I was a tech writer for six years. I was known for precision,
+								pointed questions, and a keen interest in automation and technology
+								as a way to solve inefficiencies. My first program was written in
+								VBA to speed up	data entry in Excel. By the end of my tenure, I
+								was writing Selenium scripts in Python to automate rote work.
+							</p>
+							<p class="self-blurb">
+						 		In 2016 I was accepted to <a href="https://www.appacademy.io/">App Academy</a>,
+								an immersive 12-week bootcamp where I learned Ruby, Rails, SQL,
+								JavaScript, React, and Flux.
+								To see what I can do, check out my recent projects!
+								I'm especially proud of <a href="#pollarity-details">Pollarity</a>,
+								a fullstack web app (Ruby on Rails, React.js) that I designed
+								and built from the database up.
+							</p>
+						</section>
 
-							Check out my recent projects! I'm especially proud of Pollarity
-							(Ruby on Rails, React.js).
-						</p>
-						<ul class="actions">
-							<li><a href="#" class="button icon fa-file">Resume</a></li>
-							<li><a href="#projects" class="button">Stuff I've made</a></li>
-						</ul>
-						<div class="row" id="projects">
+						<h2 id="projects">Projects</h2>
+						<div class="row">
 							<div class="4u 12u(mobile)">
 
 								<!-- Feature -->
@@ -199,7 +201,7 @@
 										</article>
 
 									<!-- Post -->
-										<article class="box post">
+										<article class="box post project-details">
 											<header>
 												<h2><a href="#">Dodge NY</a></h2>
 											</header>
@@ -228,27 +230,43 @@
 										</article>
 
 									<!-- Post -->
-										<article class="box post">
+										<article class="box post project-details">
 											<header>
-												<h2><a href="#">quizDOM</a></h2>
+												<h2><a href="#">qwizDOM</a></h2>
 											</header>
 											<h3>JavaScript</h3>
 											<p>
-												quizDOM is a lightweight DOM manipulation library,
-												written as a means to investigate JQuert's inner workings.
+												qwizDOM is a lightweight DOM manipulation library.
 												Features:
 											</p>
 											<ul class="feature-list">
 												<li>
-
+													Packages HTML elements into an object for which methods
+													provided to modify all nodes in the collection.
+													Allows user to
+													find and/or remove nodes that match a given selector;
+													retrieve all parents or children; empty innerHTML;
+													append an HTML element, nodes from a collection, or
+													strings to nodes' innerHTML; add or remove classes; and
+													register or remove event listeners.
 												</li>
 												<li>
-													Creates promises to handle the results of AJAX
-													requests, simplifying success/failure callback
-													registration and calling.
+													$qwizDOM method that behaves differently based on input.
+													Given no input, retrieves all elements on the page.
+													Given a function, adds the function to a queue and
+													for execution on page load. Given an HTML element,
+													returns a packaged version of that element.
+												</li>
+												<li>
+													$qwizDOM.ajax method to send AJAX requests, allowing
+													callbacks on success and failure (HTTP status other than
+													200). Creates promises to handle the resulting response.
+												</li>
+												<li>
+													Sandbox HTML page to test quizDOM and DomNodes methods.
 												</li>
 											</ul>
-											<a href="#"><img class="image featured" src="portfolio/images/dodgeNYscreenshot.png" alt="" /></a>
+											<a href="#"><img class="image featured" src="portfolio/images/qwizDOMscreenshot.png" alt=""/></a>
 										</article>
 								</div>
 						</div>
