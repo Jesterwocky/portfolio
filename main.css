@@ -2484,7 +2484,10 @@
 
 
 #pollarity-details {
-	background-image: url("./images/PollarityScreenshot_preview.png");
 	height: 100%;
 	width: auto;
+}
+
+p.project-link-list {
+	font-size: 14px;
 }
