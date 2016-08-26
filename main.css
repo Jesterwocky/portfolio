@@ -164,7 +164,7 @@
 	}
 
 #pre-self-blurb {
-	padding-top: 3em;
+	padding-top: 2em;
 	padding-bottom: 1em;
 }
 
@@ -1843,6 +1843,7 @@
 
 			#header {
 				padding: 10em 0 5em 0;
+				padding-bottom: 2em;
 			}
 
 				#header i {
