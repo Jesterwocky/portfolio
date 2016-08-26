@@ -2497,3 +2497,13 @@ div.article-container {
 p.project-link-list {
 	font-size: 14px;
 }
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#resume {
+	height: 900px;
+}
