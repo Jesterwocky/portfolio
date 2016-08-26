@@ -182,9 +182,13 @@
 		margin-bottom: 1em;
 	}
 
+	div.project-details-header {
+		background: linear-gradient(to right, #ebebeb 0%,#ffffff 100%);
+		width: 60em;
+	}
+
 	.project-details h2 {
 		margin-bottom: 0em;
-		background:#ebebeb;
 	}
 
 	.row {
@@ -2482,10 +2486,11 @@
 		display: flex;
 	}
 
+div.article-container {
+}
 
 #pollarity-details {
-	height: 100%;
-	width: auto;
+
 }
 
 p.project-link-list {
