@@ -46,7 +46,7 @@
 									<li>
 										<a href="#projects" class="icon fa-cogs"><span>Projects</span></a>
 									</li>
-									<li><a class="icon fa-file" href="resume.html"><span>Resume</span></a></li>
+									<li><a class="icon fa-file" href="assets/Jessie_Walker_Web_Dev_Resume_2016.pdf" target="_blank"><span>Resume</span></a></li>
 									<li><a class="icon fa-github" href="https://github.com/Jesterwocky"><span>Github</span></a></li>
 									<li><a class="icon fa-linkedin" href="https://www.linkedin.com/in/jessica-walker-88605788"><span>LinkedIn</span></a></li>
 								</ul>
@@ -64,29 +64,29 @@
 								I used to write about other people's code. Now? <strong>I write code!</strong>
 							</p>
 							<ul class="actions">
-								<li><a href="#" class="button icon fa-file">Download Resume</a></li>
-								<li><a href="#projects" class="button">See stuff I've made</a></li>
+								<li><a href="assets/Jessie_Walker_Web_Dev_Resume_2016.pdf" target="_blank" class="button icon fa-file">Resume</a></li>
+								<li><a href="#projects" class="button">Stuff I've made</a></li>
 							</ul>
 							<h2>About Me</h2>
 							<p class="self-blurb">
-								Hi! I'm a web dev specializing in Ruby on Rails and JavaScript
+								I'm a web dev specializing in Ruby on Rails and JavaScript
 								with React.js.
 							</p>
 							<p class="self-blurb">
 								For six years I was a tech writer known for precision,
-								pointed questions, and an interest in technology
+								pointed questions, and an interest in technology as a way
 								to solve inefficiencies. I wrote my first program in
-								Visual Basic to speed up data entry in Excel. By the end of my
-								tenure I was writing Selenium scripts in Python to automate
-								tedious work. I realized quickly that I'd
-								rather write code than write <emphasis>about</emphasis> code.
+								Visual Basic to speed up data entry in Excel. By the end
+								of my time as a tech writer, I was writing Selenium scripts in
+								Python to automate tedious tasks. I realized I'd
+								rather write code than write about code.
 							</p>
 							<p class="self-blurb">
 						 		In 2016 I was accepted to <a href="https://www.appacademy.io/">App Academy</a>,
 								an intensive 12-week bootcamp where I learned Ruby,
 								Rails, SQL, JavaScript, and React.js using the Flux pattern.
 								Now I build web apps, backend and front end.
-								To see what I've been up to, check out my <a href="#projects">latest projects</a>!
+								To see what I've been working on, check out my <a href="#projects">latest projects</a>.
 							</p>
 						</section>
 						<h2 id="projects">Projects</h2>
@@ -103,11 +103,11 @@
 										JavaScript and the HTML5 canvas.
 									</p>
 									<p class="project-link-list">
-										<a href="#">Live</a> |
-										<a href="#">Features</a> |
+										<a href="https://jesterwocky.github.io/Dodge_NY_Game/">Live</a> |
+										<a href="#dodge-ny-details">Features</a> |
 										<a href="https://github.com/Jesterwocky/Dodge_NY_Game">Repo</a>
 									</p>
-									<a href="#"><img class="image featured" src="images/dodgeNYscreenshot_preview.png" alt="" /></a>
+									<a href="#dodge-ny-details"><img class="image featured" src="images/dodgeNYscreenshot_preview.png" alt="" /></a>
 								</section>
 
 							</div>
@@ -123,11 +123,11 @@
 										Inspired by <a href="https://polleverywhere.com">Poll Everywhere</a>.
 									</p>
 									<p class="project-link-list">
-										<a href="https://pollarity-polls.herokuapp.com/">Live</a> |
-										<a href="#">Features</a> |
+										<a href="http://www.pollarity-polls.com">Live</a> |
+										<a href="#pollarity-details">Features</a> |
 										<a href="https://github.com/Jesterwocky/Pollarity">Repo</a>
 									</p>
-									<a href="https://pollarity-polls.herokuapp.com/" target="_blank"><img class="image featured" src="images/PollarityScreenshot_preview.png" alt="" /></a>
+									<a href="#pollarity-details"><img class="image featured" src="images/PollarityScreenshot_preview.png" alt="" /></a>
 								</section>
 
 							</div>
@@ -143,10 +143,10 @@
 										JQuery's foundations.
 									</p>
 									<p class="project-link-list">
-										<a href="#">Features</a> |
+										<a href="#qwizdom-details">Features</a> |
 										<a href="https://github.com/Jesterwocky/qwizDOM">Repo</a>
 									</p>
-									<a href="#"><img class="image featured" src="images/qwizDOMscreenshot_preview.png" alt="" /></a>
+									<a href="#qwizdom-details"><img class="image featured" src="images/qwizDOMscreenshot_preview.png" alt="" /></a>
 								</section>
 
 							</div>
@@ -160,127 +160,133 @@
 						<div class="row">
 
 							<!-- Content -->
-								<div id="content" class="8u 12u(mobile)">
+								<div id="content" class="">
 
 									<!-- Post -->
 										<article class="box post project-details" id="pollarity-details">
 											<header>
 												<div class="project-details-header">
-													<h2><a href="https://pollarity-polls.herokuapp.com/">Pollarity</a></h2>
+													<h2><a href="http://www.pollarity-polls.com">Pollarity</a></h2>
+													<h3>Ruby on Rails and JavaScript with React.js and Flux</h3>
 												</div>
 											</header>
-											<h3>Ruby on Rails and JavaScript with React.js and Flux</h3>
-											<p>
-												Pollarity is a single-page web app built in Ruby on Rails
-												and JavaScript using React.js, featuring:
-											<p>
-												<ul class="feature-list">
-													<li>
-														Postgres database with complex associations at
-														the model level (Rails). React.js frontend, using Flux to
-														govern the flow of data between database and
-														views/components.
-													</li>
-													<li>
-														Poll-creation component that automatically
-														generates question components on change
-														event. Integrated Cloudinary API permits image uploads
-														as a supplement or replacement for plain-text answers.
-													</li>
-													<li>
-														Poll response components that fire an
-														AJAX request on click to create, update, or
-														remove a vote. Intuitive UI with instant visual
-														feedback: click once to vote (create); click again
-														to deselect (delete); click another answer to
-														change your vote (update).
-													</li>
-													<li>
-														Live poll results, made possible by WebSockets using
-														<a href="https://pusher.com/">Pusher</a>. A Response
-														Store component listens for survey-specific events published
-														by the Responses Controller on create, update, or delete.
-														Changes in the store trigger registered callbacks to
-														instantly update the survey report.
-													</li>
-												</ul>
-											<p>
-												Pollarity was inspired by <a href="https://www.polleverywhere.com">Poll Everywhere</a>.
-											</p>
-											<a href="#"><img class="image featured" src="images/PollarityScreenshot.png" alt="" /></a>
+											<div class="project-info">
+												<p>
+													Pollarity is a single-page web app built in Ruby on Rails
+													and JavaScript using React.js, featuring:
+												<p>
+													<ul class="feature-list">
+														<li>
+															Postgres database with complex associations at
+															the model level (Rails). React.js frontend, using Flux to
+															govern the flow of data between database and
+															views/components.
+														</li>
+														<li>
+															Poll-creation component that automatically
+															generates question components on change
+															event. Integrated Cloudinary API permits image uploads
+															as a supplement or replacement for plain-text answers.
+														</li>
+														<li>
+															Poll response components that fire an
+															AJAX request on click to create, update, or
+															remove a vote. Intuitive UI with instant visual
+															feedback: click once to vote (create); click again
+															to deselect (delete); click another answer to
+															change your vote (update).
+														</li>
+														<li>
+															Live poll results, made possible by WebSockets using
+															<a href="https://pusher.com/">Pusher</a>. A Response
+															Store component listens for survey-specific events published
+															by the Responses Controller on create, update, or delete.
+															Changes in the store trigger registered callbacks to
+															instantly update the survey report.
+														</li>
+													</ul>
+													<p>
+														Pollarity was inspired by <a href="https://www.polleverywhere.com">Poll Everywhere</a>.
+													</p>
+													<a href="http://www.pollarity-polls.com"><img class="image featured" src="images/PollarityScreenshot.png" alt="" /></a>
+											</div>
 										</article>
 
 									<!-- Post -->
-										<article class="box post project-details">
+										<article class="box post project-details" id="dodge-ny-details">
 											<header>
 												<div class="project-details-header">
 													<h2><a href="#">Dodge NY</a></h2>
+													<h3>JavaScript</h3>
 												</div>
 											</header>
-											<h3>JavaScript</h3>
-											<p>
-												Dodge NY is a browser game written in JavaScript. Features:
-											</p>
-											<ul class="feature-list">
-												<li>
-													JavaScript using JQuery, rendering on
-													layered	HTML5 canvases. A background canvas
-													draws the sidewalk one time per pageload. Obstacles and
-													people are drawn on the top canvas at 200 frames per second.
-												</li>
-												<li>
-													A simple algorithm to simulate crowd movement. "People" characters
-													steer away from obstacles and avoid the road. Jostling crowds nudge
-													the player in random directions, frustrating their intentions and
-													knocking points off the politeness score. Cars run vertically on a
-													partly-randomized timer. Player charater's speed increases while
-													walking in the road and returns to normal on regaining
-													the sidewalk.
-												</li>
-											</ul>
-											<a href="#"><img class="image featured" src="images/dodgeNYscreenshot.png" alt="" /></a>
+											<div class="project-info">
+												<p>
+													Dodge NY is a browser game written in JavaScript. Features:
+												</p>
+												<ul class="feature-list">
+													<li>
+														JavaScript using JQuery, rendering on
+														layered	HTML5 canvases. A background canvas
+														draws the sidewalk one time per pageload. Obstacles and
+														people are drawn on the top canvas at 200 frames per second.
+													</li>
+													<li>
+														A simple algorithm to simulate crowd movement. "People" characters
+														steer away from obstacles and avoid the road. Jostling crowds nudge
+														the player in random directions, frustrating their intentions and
+														knocking points off the politeness score. Cars run vertically on a
+														partly-randomized timer. Player charater's speed increases while
+														walking in the road and returns to normal on regaining
+														the sidewalk.
+													</li>
+												</ul>
+												<a href="https://jesterwocky.github.io/Dodge_NY_Game/"><img class="image featured" src="images/dodgeNYscreenshot.png" alt="" /></a>
+											</div>
 										</article>
 
 									<!-- Post -->
-										<article class="box post project-details">
+										<article class="box post project-details" id="qwizdom-details">
 											<header>
 												<div class="project-details-header">
-													<h2><a href="#">qwizDOM</a></h2>
+													<h2>qwizDOM</h2>
+													<h3>JavaScript</h3>
 												</div>
 											</header>
-											<h3>JavaScript</h3>
-											<p>
-												qwizDOM is a lightweight DOM manipulation library.
-												Features:
-											</p>
-											<ul class="feature-list">
-												<li>
-													Packages HTML elements into an object for which methods
-													provided to modify all nodes in the collection.
-													Allows user to
-													find and/or remove nodes that match a given selector;
-													retrieve all parents or children; empty innerHTML;
-													append an HTML element, nodes from a collection, or
-													strings to nodes' innerHTML; add or remove classes; and
-													register or remove event listeners.
-												</li>
-												<li>
-													$qwizDOM method that behaves differently based on input.
-													Given no input, retrieves all elements on the page.
-													Given a function, adds the function to a queue and
-													for execution on page load. Given an HTML element,
-													returns a packaged version of that element.
-												</li>
-												<li>
-													$qwizDOM.ajax method to send AJAX requests, allowing
-													callbacks on success and failure (HTTP status other than
-													200). Creates promises to handle the resulting response.
-												</li>
-												<li>
-													Sandbox HTML page to test quizDOM and DomNodes methods.
-												</li>
-											</ul>
-											<a href="#"><img class="image featured" src="images/qwizDOMscreenshot.png" alt=""/></a>
+											<div class="project-info">
+												<p>
+													qwizDOM is a lightweight DOM manipulation library.
+													Features:
+												</p>
+												<ul class="feature-list">
+													<li>
+														Packages HTML elements into an object for which methods
+														provided to modify all nodes in the collection.
+														Allows user to
+														find and/or remove nodes that match a given selector;
+														retrieve all parents or children; empty innerHTML;
+														append an HTML element, nodes from a collection, or
+														strings to nodes' innerHTML; add or remove classes; and
+														register or remove event listeners.
+													</li>
+													<li>
+														$qwizDOM method that behaves differently based on input.
+														Given no input, retrieves all elements on the page.
+														Given a function, adds the function to a queue and
+														for execution on page load. Given an HTML element,
+														returns a packaged version of that element.
+													</li>
+													<li>
+														$qwizDOM.ajax method to send AJAX requests, allowing
+														callbacks on success and failure (HTTP status other than
+														200). Creates promises to handle the resulting response.
+													</li>
+													<li>
+														Sandbox HTML page to test quizDOM and DomNodes methods.
+													</li>
+												</ul>
+												<a href="https://github.com/Jesterwocky/qwizDOM"><img class="image featured" src="images/qwizDOMscreenshot.png" alt=""/></a>
+											</div>
 										</article>
 								</div>
 						</div>
@@ -289,11 +295,20 @@
 
 			<!-- Footer -->
 				<div id="footer-wrapper">
-					<div id="footer" class="container">
-					</div>
+					<nav id="footer-nav">
+						<ul>
+							<li><a class="icon fa-home" href="#features"><span>Summary</span></a></li>
+							<li>
+								<a href="#projects" class="icon fa-cogs"><span>Projects</span></a>
+							</li>
+							<li><a class="icon fa-file" href="assets/Jessie_Walker_Web_Dev_Resume_2016.pdf" target="_blank"><span>Resume</span></a></li>
+							<li><a class="icon fa-github" href="https://github.com/Jesterwocky"><span>Github</span></a></li>
+							<li><a class="icon fa-linkedin" href="https://www.linkedin.com/in/jessica-walker-88605788"><span>LinkedIn</span></a></li>
+						</ul>
+					</nav>
 					<div id="copyright" class="container">
 						<ul class="links">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Jessie Walker. All rights reserved.</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</div>
 				</div>
