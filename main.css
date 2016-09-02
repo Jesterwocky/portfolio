@@ -2599,3 +2599,12 @@ article div.project-info {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+.project-details-header h3 a {
+	color: #267c96;
+}
+
+.project-info p.project-details-intro {
+	margin-bottom: 0em;
+}
