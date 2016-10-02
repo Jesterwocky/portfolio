@@ -163,14 +163,6 @@
 
 	}
 
-#pre-self-blurb {
-	padding-top: 2em;
-	padding-bottom: 1em;
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 #features-wrapper p.self-blurb {
 	text-align: justify;
 }
