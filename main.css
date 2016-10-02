@@ -2588,3 +2588,7 @@ article div.project-info {
 	margin-top: 1.5em;
 	margin-bottom: 0em;
 }
+
+#nav a:hover {
+	cursor:pointer;
+}
