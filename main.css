@@ -1139,7 +1139,7 @@
 	}
 
 	ul, ol, dl, table, blockquote {
-		margin-bottom: 2em;
+		margin-bottom: 0em;
 	}
 
 	br.clear {
@@ -1181,6 +1181,7 @@
 			width: 100%;
 			margin: 0 0 3.5em 0;
 			background: #ebebeb;
+			margin-top: 1.5em;
 		}
 
 		.image.featured.support {
@@ -1748,7 +1749,7 @@
 /* Features */
 
 #about-me {
-	width: 60%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2.5em;
@@ -2524,7 +2525,7 @@
 	}
 
 	ul.feature-list li {
-		padding-top: 1.1em;
+		padding-bottom: 1.1em;
 	}
 
 /* JW */
@@ -2552,13 +2553,13 @@ p.project-link-list {
 }
 
 article div.project-info {
-	width: 60%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #about-me {
-	width: 60%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -2593,6 +2594,18 @@ article div.project-info {
 	cursor:pointer;
 }
 
-p !important {
-	font-size: 1.5em;
+p, ul, ol {
+	font-size: 1.2em !important;
+}
+
+p {
+	margin-bottom: 1em !important;
+}
+
+li:last-child {
+	margin-bottom: 0em;
+}
+
+.links {
+	font-size: 1em !important;
 }
